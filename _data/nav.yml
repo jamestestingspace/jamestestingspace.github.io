@@ -6,15 +6,19 @@
   section_id: About Us
 - name: Qualitative
   path: what-we-do/qualitative.html
+  section_id: qualitative
 - name: Quantitative
   path: what-we-do/quantitative.html
+  section_id: quantitative
 - name: Sensory
   path: what-we-do/sensory-research.html
+  section_id: sensory
 - name: Social
   path: what-we-do/social-research.html
+  section_id: social
 - name: Other Stuff
   path: proprietary-tools.html
-  section_id: Proprietary Tools
+  section_id: other stuff
   children:
     - name: Vibrand Reach
       path: proprietary-tools/vibrand-reach.html
