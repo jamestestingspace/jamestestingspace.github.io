@@ -1462,7 +1462,7 @@ if (typeof Object.create !== "function") {
         itemsScaleUp : false,
 
         slideSpeed : 200,
-        paginationSpeed : 1300,
+        paginationSpeed : 1000,
         rewindSpeed : 1000,
 
         autoPlay : false,
