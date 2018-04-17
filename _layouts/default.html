@@ -73,7 +73,7 @@ src="https://www.facebook.com/tr?id=1910740429248275&ev=PageView&noscript=1"
     <div id="loader-wrapper">
         <div id="loader"><span class="loader-inner"></span></div>
         <div id="loading-text">LOADING</div>
-    </div>   
+    </div>
 
     <!-- HEADER -->
     <header class="tt-header">
@@ -97,13 +97,13 @@ src="https://www.facebook.com/tr?id=1910740429248275&ev=PageView&noscript=1"
 
                 {% if item.children %}
                             <li class="parent {{active_class}}">
-                                <a href="{{site.url}}/{{ item.path }}">{{item.name}}</a>  
+                                <a href="{{site.url}}/{{ item.path }}">{{item.name}}</a>
                                 <ul>{% for child in item.children %}
                                  <li>
                           <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
                         </li>
 {% endfor %}
-                    </ul>                          
+                    </ul>
                             </li>
                              {% else %}
                             <li class="parent {{active_class}}">
@@ -121,6 +121,11 @@ src="https://www.facebook.com/tr?id=1910740429248275&ev=PageView&noscript=1"
     </header>
 {{content}}
    <!-- FOOTER -->
+   <div style="background-color: #fcbf31;" class="container">
+       <div class="row">
+         <p style="text-align: center;"><a style="margin-left: auto; margin-right: auto;" class="c-btn type-2 size-2" href="mailto:info@vibrand.co.za"><span>info@vibrand.co.za</span></a></p>
+       </div>
+     </div>
     <footer class="tt-footer">
          <img style="max-height: 165px;" src="{{site.url}}/img/footer/footer_image.jpg"/ width="100%">
         <div class="container">
@@ -143,8 +148,8 @@ src="https://www.facebook.com/tr?id=1910740429248275&ev=PageView&noscript=1"
                         </div>
                     </div>
                     <div class="empty-space marg-lg-b25"></div>
-                    
-                   
+
+
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <div class="empty-space marg-lg-b25"></div>
@@ -153,7 +158,7 @@ src="https://www.facebook.com/tr?id=1910740429248275&ev=PageView&noscript=1"
                     <ul class="tt-social clearfix">
                        <li><a href="https://www.facebook.com/vibrandresearch/?fref=ts"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     </ul>
-                    <div class="empty-space marg-lg-b10"></div>           
+                    <div class="empty-space marg-lg-b10"></div>
                 </div>
         </div>
         <div class="tt-footer-copy">
