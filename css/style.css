@@ -1410,3 +1410,9 @@ body.theme-orange .c-btn.type-2.color-2:before,body.theme-orange .c-btn.type-2.c
     border-radius: 50%;
     margin-bottom: 10px;
   }
+  .swiper-arrow-right {
+  display: none!important;
+}
+.swiper-arrow-left {
+display: none!important;
+}
