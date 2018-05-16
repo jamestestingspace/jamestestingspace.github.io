@@ -1470,7 +1470,6 @@ text-align: center;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  border:1px solid black;
 }
 
 .mover-1 {
@@ -1482,13 +1481,13 @@ text-align: center;
   top: 0;
   left: 0;
 
-  animation: moveSlideshow 5s linear infinite;
+  animation: moveSlideshow 50s linear infinite;
 }
 
 .mover-1 img {
   display:inline-block;
   vertical-align:middle;
-  width:300px;
+  width:200px;
   margin:0;
 }
 
