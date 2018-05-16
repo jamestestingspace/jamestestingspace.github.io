@@ -1446,6 +1446,11 @@ text-align: center;
   font-weight: 900;
   text-align: right;
   }
+  .buttonvibrandmain {
+  display: inline-block;
+width: 100%;
+padding: 20px;
+}
   .sliderheadingcenter {
     color:#fff;
     font-size:  50px;
