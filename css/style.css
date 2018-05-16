@@ -1416,3 +1416,14 @@ body.theme-orange .c-btn.type-2.color-2:before,body.theme-orange .c-btn.type-2.c
 .swiper-arrow-left {
 display: none!important;
 }
+.sliderheadingright {
+color:#333;
+font-size: 100px;
+font-weight: 900;
+text-align: right;
+}
+.sliderheadingcenter {
+  color:#fff;
+  font-size:  100px;
+  font-weight: 900;
+}
