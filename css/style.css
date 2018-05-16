@@ -1464,35 +1464,3 @@ text-align: center;
   text-align: center;
   }
 }
-.tech-slideshow {
-  height: 100px;
-  max-width: 100%;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.mover-1 {
-  height: 150px;
-  width: 100000px;
-
-  position: absolute;
-  overflow-x:hidden;
-  top: 0;
-  left: 0;
-
-  animation: moveSlideshow 10s linear infinite;
-}
-
-.mover-1 img {
-  display:inline-block;
-  vertical-align:middle;
-  width:200px;
-  margin:0;
-}
-
-@keyframes moveSlideshow {
-  100% {
-    transform: translateX(-1000px);
-  }
-}
