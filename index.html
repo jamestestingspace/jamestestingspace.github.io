@@ -353,11 +353,14 @@ clients:
                 <h2 class="c-h2"><small>Brands we have worked with</small></h2>
                     <div class="empty-space marg-lg-b25 marg-sm-b15 marg-xs-b10"></div>
             </div>
-            <div id="owl-demo">
+            <div class="tech-slideshow">
+  <div class="mover-1">
+
+
 
                              {% for client in page.clients %}
                   <div class="item">
-      <a class="tt-partner" href="{{client.link}}" target="_blank"><img class="img-responsive" src="{{site.url}}/img/clients/{{client.image}}.jpg" alt=""></a>
+      <img class="img-responsive" src="{{site.url}}/img/clients/{{client.image}}.jpg" alt=""></a>
       </div>
         {% endfor %}
     </div>
