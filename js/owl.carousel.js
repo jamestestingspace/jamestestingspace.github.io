@@ -1509,7 +1509,6 @@ if (typeof Object.create !== "function") {
         startDragging : false,
         afterLazyLoad: false,
         slideTransition: 'linear',
- autoplayTimeout: 5000,
- autoplaySpeed: 5000
+ autoplaySpeed: 100
     };
 }(jQuery, window, document));
