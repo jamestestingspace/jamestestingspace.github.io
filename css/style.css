@@ -1481,7 +1481,7 @@ text-align: center;
   top: 0;
   left: 0;
 
-  animation: moveSlideshow 1000s linear infinite;
+  animation: moveSlideshow 10s linear infinite;
 }
 
 .mover-1 img {
