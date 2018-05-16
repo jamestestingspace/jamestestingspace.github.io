@@ -1451,6 +1451,9 @@ text-align: center;
 width: 100%;
 margin-top: 20px;
 }
+.buttonvibrandmain a {
+display: block;
+}
   .sliderheadingcenter {
     color:#fff;
     font-size:  50px;
