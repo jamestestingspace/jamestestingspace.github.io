@@ -9,6 +9,9 @@ $(document).ready(function() {
       itemsDesktopSmall : [979,3],
       pagination : false,
       stopOnHover : true,
+      slideTransition: 'linear',
+ autoplayTimeout: 0,
+ autoplaySpeed: 5000
 
   });
 
