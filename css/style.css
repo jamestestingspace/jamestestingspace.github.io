@@ -1474,14 +1474,14 @@ text-align: center;
 
 .mover-1 {
   height: 150px;
-  width: 10000px;
+  width: 100000px;
 
   position: absolute;
   overflow-x:hidden;
   top: 0;
   left: 0;
 
-  animation: moveSlideshow 50s linear infinite;
+  animation: moveSlideshow 1000s linear infinite;
 }
 
 .mover-1 img {
@@ -1493,6 +1493,6 @@ text-align: center;
 
 @keyframes moveSlideshow {
   100% {
-    transform: translateX(-520px);
+    transform: translateX(-1000px);
   }
 }
