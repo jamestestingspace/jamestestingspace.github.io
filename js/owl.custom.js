@@ -8,8 +8,7 @@ $(document).ready(function() {
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
       pagination : false,
-      stopOnHover : true,
-       autoplaySpeed: 100
+      stopOnHover : true
 
   });
 
